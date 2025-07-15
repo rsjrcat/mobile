@@ -14,7 +14,7 @@ import { useRouter } from 'expo-router';
 import { useUser } from '@clerk/clerk-expo';
 import { ArrowLeft } from 'lucide-react-native';
 
-const API_BASE_URL = 'http://192.168.1.8:3000/';
+const API_BASE_URL = 'http://192.168.1.8:3000/api';
 
 export default function CreateTransaction() {
   const router = useRouter();
